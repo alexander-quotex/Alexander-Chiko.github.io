@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>About Me</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">Logo</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Tentang</a></li>
+                <li><a href="#hobi">Hobi</a></li>
+                <li><a href="#" onclick="redirWhatsapp()">Kontak</a></li>
+            </ul>
+        </nav>
+        <button class="btn" onclick="redirInstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hello, Alexz In Here!</p>
+            <p class="description">Web Development & Designer</p>
+            <img src="Foto Saya.jpg" alt="Foto Alexz_" class="img-foto"/>
+        </div>
+    </div>
+    <div class="intro-2" id="hobi">
+        <p class="title">Saya Adalah Programer Web Development </p>
+        <p class="description-2">Ngoding Aja Dulu, Jago Belakangan.</p>
+        <div class="mt-10">
+            <button class="btn-2" onclick="redirWhatsapp()">Mari Kerjasama</button>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="container">
+            <div class="card">
+                <div class="card-items">
+                    <img src="24-hours.png" class="logo-card"/>
+                    <p class="card-title">Saya Suka Nongkrong 1</p>
+                    <p class="card-description">Nongkrong adalah jalan terbaik untuk mencari inspirasi</p>
+                </div>
+                <div class="card-items">
+                    <img src="24-hours.png" class="logo-card"/>
+                    <p class="card-title">Saya Suka Nongkrong 2</p>
+                    <p class="card-description">Nongkrong adalah jalan terbaik untuk mencari inspirasi</p>
+                </div>
+                <div class="card-items">
+                    <img src="24-hours.png" class="logo-card"/>
+                    <p class="card-title">Saya Suka Nongkrong 3</p>
+                    <p class="card-description">Nongkrong adalah jalan terbaik untuk mencari inspirasi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <p class="title">&copy; Alexander Chiko 2022</p>
+</footer>
+
+<script>
+    function redirInstagram() {
+        window.location.href = "https://instagram.com/alexzf.w"
+    }
+    function redirWhatsapp() {
+        window.location.href = "https://wa.me/+628123456789"
+    }
+</script>
+</body>
+
+</html>
